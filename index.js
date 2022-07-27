@@ -38,3 +38,9 @@ const sloths = [
         species: "Maned",
     },
 ];
+
+const resolvers = {
+    Query: {
+      sloths: () => sloths,
+    },
+  };
