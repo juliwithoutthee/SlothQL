@@ -17,3 +17,24 @@ const typeDefs = gql`
     sloths: [Sloth]
   }
 `;
+
+const sloths = [
+    {
+        species: "Pygmy",
+    },
+    {
+        species: "Linnaeus",
+    },
+    {
+        species: "Hoffman",
+    },
+    {
+        species: "Brown-throated",
+    },
+    {
+        species: "Pale-throated",
+    },
+    {
+        species: "Maned",
+    },
+];
